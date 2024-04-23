@@ -1,26 +1,51 @@
 <?php
 
+    // --------------------------Exercice 3-----------------------------
+
+    interface Nageur
+    {
+        public function nager();
+    }
+
+    interface Voleur
+    {
+        public function voler();
+    }
+    
+    class SuperHero implements Nageur, Voleur
+    {
+        public function nager()
+        {
+
+        }
+
+        public function voler()
+        {
+            
+        }
+    }
+
     // --------------------------Exercice 2-----------------------------
 
-    interface Vehicule
-    {
-        public function demarrer();
+    // interface Vehicule
+    // {
+    //     public function demarrer();
 
-        public function arreter();
-    }
+    //     public function arreter();
+    // }
 
-    class Voiture implements Vehicule
-    {
-        public function demarrer()
-        {
+    // class Voiture implements Vehicule
+    // {
+    //     public function demarrer()
+    //     {
 
-        }
+    //     }
 
-        public function arreter()
-        {
+    //     public function arreter()
+    //     {
 
-        }
-    }
+    //     }
+    // }
 
 
 
