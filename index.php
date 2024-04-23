@@ -3,24 +3,24 @@
 
 // -----------------------------------Les interfaces-----------------------------------------------
 
-    // interface Animal
-    // {
-    //     public function manger();
-    //     public function seDeplacer();
-    // }
+    interface Animal
+    {
+        public function manger();
+        public function seDeplacer();
+    }
     
-    // class Chien implements Animal
-    // {
-    //     public function manger()
-    //     {
+    class Chien implements Animal
+    {
+        public function manger()
+        {
+            
+        }
 
-    //     }
+        public function seDeplacer()
+        {
 
-    //     public function seDeplacer()
-    //     {
-
-    //     }
-    // }
+        }
+    }
 
 
 
